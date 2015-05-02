@@ -2,9 +2,9 @@
 #define KLEISLI_H
 
 #include <functional>
-#include <experimental/optional>
 #include <type_traits>
 
+#include <experimental/optional>
 using std::experimental::optional;
 
 // (>>=) :: m a -> (a -> m b) -> m b
